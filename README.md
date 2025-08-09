@@ -1,2 +1,2 @@
-# IaC-with-TerraformTerraform
-IaC with TerraformTerraform
+# IaC-with-Terraform
+IaC with Terraform
