@@ -1,0 +1,25 @@
+# Terraform の作業ディレクトリ
+.terraform/
+
+# Terraform ステートファイル
+*.tfstate
+*.tfstate.backup
+
+# CLI ロックファイル
+*.tflock
+
+# 変数ファイル（機密情報を含む場合）
+*.tfvars
+*.tfvars.json
+
+# ローカル環境用設定
+.terraformrc
+terraform.rc
+
+# IDE や OS が生成するファイル
+*.swp
+*.swo
+*.bak
+.DS_Store
+.vscode/
+.idea/
