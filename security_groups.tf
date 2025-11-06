@@ -24,10 +24,10 @@ resource "aws_security_group" "ec2" {
   vpc_id      = aws_vpc.main.id
 
   ingress {
-    from_port                = 80
-    to_port                  = 80
-    protocol                 = "tcp"
-    security_groups          = [aws_security_group.elb.id]
+    from_port       = 80
+    to_port         = 80
+    protocol        = "tcp"
+    security_groups = [aws_security_group.elb.id]
   }
 
   ingress {
@@ -51,10 +51,10 @@ resource "aws_security_group" "rds" {
   vpc_id      = aws_vpc.main.id
 
   ingress {
-    from_port                = 3306
-    to_port                  = 3306
-    protocol                 = "tcp"
-    security_groups          = [aws_security_group.ec2.id]
+    from_port       = 3306
+    to_port         = 3306
+    protocol        = "tcp"
+    security_groups = [aws_security_group.ec2.id]
   }
 
   egress {

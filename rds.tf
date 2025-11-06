@@ -1,5 +1,5 @@
 data "aws_ssm_parameter" "rds_master_password" {
-  name = "/rds/master/password"
+  name            = "/rds/master/password"
   with_decryption = true
 }
 
