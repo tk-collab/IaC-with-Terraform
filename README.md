@@ -7,7 +7,8 @@
 ### 3. terraform fmt→validate→plan→applyの順に実行
 ### 4. 複数環境の構築
   - modules
-  - workspaces
+  - workspaces  
+    - dev,prod等に分けたいときに使う
 ### 5. tfstateファイルはディレクトリとは別に管理するのが基本（リソースごと消えてしまうことを防ぐためやチームで共有するため）
   - S3に保存、lock管理はDynamoDB
   
