@@ -8,6 +8,7 @@
 ### 4. Build multiple environment
     - modules
     - workspaces
+      - Use when we want to separate dev from prod.
 ### 5. Manage tfstate file separated from directry(for preventing it from acceidental deletion)
   - Restore in S3, DynamoDB for lock management
 
