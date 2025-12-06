@@ -15,3 +15,4 @@
 ## Difficulties
 ### Not pushed due to over capacity of Provider folder, even though using .gitignore.
 ### Necessary files have been deleted when I used git filter-repo command. In such a situation, we should have used --invert-paths option. 
+### Notice being charged unintentionally by RDS default specification to back up to internal S3, disenable it in setting.
